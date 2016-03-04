@@ -3,6 +3,8 @@ layout: post
 title: First Meeting of PyCAS
 ---
 
+## Summary
+
 The First Meeting of PyCAS took place today. We discussed the various ways people in CAS are using Python, or intend to use it. There was a range of applications including:
 
 1. Plotting data with matplotlib, data visualisation
