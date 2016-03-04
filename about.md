@@ -8,8 +8,8 @@ Some information about you!
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+This blog contains summaries of previous meetings of PyCAS, the python users group. The static page for the group is here: http://atmoscoders.github.io/PyCAS/home.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+You know where to find us...
