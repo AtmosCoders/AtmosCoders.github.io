@@ -5,14 +5,14 @@ title: First Meeting of PyCAS
 
 The First Meeting of PyCAS took place today. We discussed the various ways people in CAS are using Python, or intend to use it. There was a range of applications including:
 
-#. Plotting data with matplotlib, data visualisation
-#. Raw data processing
-#. Processing data in common formats (e.g. netCDF)
-#. Machine learning techniques
-#. Calculating the properties of organic molecules
-#. Harvesting twitter data
-#. Auto-tweeting fictional tabloid weather headlines
-#. An open source alternative to Matlab
+1. Plotting data with matplotlib, data visualisation
+1. Raw data processing
+1. Processing data in common formats (e.g. netCDF)
+1. Machine learning techniques
+1. Calculating the properties of organic molecules
+1. Harvesting twitter data
+1. Auto-tweeting fictional tabloid weather headlines
+1. An open source alternative to Matlab
 
 It was good to see so many people interested in learning/using Python!
 
