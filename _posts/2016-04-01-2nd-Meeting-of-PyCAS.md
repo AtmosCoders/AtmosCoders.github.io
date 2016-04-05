@@ -58,7 +58,17 @@ print x/y
 >> 3
 {% endhighlight %}
 
-Whereas Python 3 will always opt for what some might call the "expected" answer e.g.
+This may not be the answer you were expecting, but you can provide some 'encouragement' to Python 2 to get what you want e.g.
+
+{% highlight python %}
+x = 10.0
+y = 3
+print x/y
+
+>> 3.33333333335
+{% endhighlight %}
+
+This time, it spots that one of your variables is not an integer, so converts both of them to floating point numbers to do the arithmetic. However, *Python 3* will always opt for what some might call the "expected" answer e.g.
 
 {% highlight python %}
 x = 10
