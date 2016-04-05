@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2nd Meeting of PyCAS
+title: Second Meeting of PyCAS
 ---
 
 In the first half of the meeting we discussed some questions about the best way of getting Python installed on your machine (or more specifically, NumPy, Matplotlib and other various Python modules for doing science with.)
@@ -50,14 +50,14 @@ Note that it varies which python is the default one. You can find out by typing 
 
 Not very many that we would probably worry about. Python 2.7 does integer division by default where it can. e.g.
 
-{ % highlight python %}
+{ % highlight python % }
 
 x = 10
 y = 3
 print x/y
 
 >> 3
-{ % endhighlight %}
+{ % endhighlight % }
 
 Whereas Python 3 will always opt for what some might call the "expected" answer e.g.
 
