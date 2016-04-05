@@ -7,13 +7,13 @@ In the first half of the meeting we discussed some questions about the best way 
 
 To clarify, the main ways of installing Python packages for sciency things are:
 
-- Install them with your package manager (Linux Users), i.e. `sudo apt-get numpy` or `yum install numpy-python` etc. You'll have to search your repository or google to find what the actually name of the relevant package is as they often vary slightly between linux distributions.
+1. Install them with your **package manager** (Linux Users), i.e. `sudo apt-get numpy` or `yum install numpy-python` etc. You'll have to search your repository or google to find what the actual name of the relevant package is as they often vary slightly between linux distributions.
 
-- Install with Python's own package manager, *pip*, i.e. `sudo pip install numpy`. Works on multiple platforms (Mac, Linux, Windows (I think..)
+1. Install with Python's own package manager, **pip**, i.e. `sudo pip install numpy`. Works on multiple platforms (Mac, Linux, Windows (I think..). I have come to realise that pip, although fast, is not always the easiest way of doing things, as it will not automatically install any dependencies, and the error messages you get when dependencies (i.e. other modules) are missing are often rather cryptic...
 
-- Install a Python 'bundle' designed for science/data analysis. These are big packages that you can download and install, which include pretty much everything you need to do Python with, namely NumPy and Matplotlib, but also a whole range of other modules that might come in handy. This takes the most space on your PC, but is often the easiest way. Works on Windows/Linux/Mac. 
+1. Install a complete Python distribution designed for science/data analysis. These are big packages that you can download and install, which include pretty much everything you need to do Sciency-Python with, namely NumPy and Matplotlib, but also a whole range of other modules that might come in handy. This takes the most space on your PC, but is often the easiest way. Works on Windows/Linux/Mac. 
 
-## Python Bundles
+## 'Complete' Python Distributions
 
 ### Anaconda
 Anaconda is a popular Python 'bundle' that includes most things you could possibly want to do Python-Science stuff with. You can download the appropriate installer here: [Anaconda Download](https://www.continuum.io/downloads). Linux, Mac, and Windows version available.
@@ -24,7 +24,7 @@ Personally, this is my favourite Python bundle for Windows, it comes with a nice
 ## From the Package manager
 This is a good way to go if you don't want to install a massive bundle of Python stuff that you won't use, and like to know what's being installed on your computer. This method is just for linux users. 
 
-NOTE: If you are running Python versions 2.7 and 3.x side by side, you may find that you have to install packages for both installations separately with your package manager: e.g
+> Note: If you are running Python versions 2.7 and 3.x side by side, you may find that you have to install packages for both installations separately with your package manager: e.g
 
 ```
 sudo yum install numpy-python
@@ -40,15 +40,15 @@ You can run them side by side if you wish. I won't explain how to do it here, bu
 python myPython2script.py
 python3 myPython3script.py
 
-IPython  # starts the default version of python (often 2.7)
-IPython3  # starts a Python 3 session
+ipython  # starts the default version of python (often 2.7)
+ipython3  # starts a Python 3 session
 ```
 
 Note that it varies which python is the default one. You can find out by typing `python --version` into the console/terminal.
 
 ### Any differences?
 
-Not very many that we would probably worry about. Python 2.7 does integer division by default where it can. e.g.
+Not very many that we would probably worry about. One difference that could cause you issues is that Python 2.7 does integer division by default where it can. e.g.
 
 #### Python 2.7
 {% highlight python %}
@@ -81,6 +81,10 @@ print( x/y )
 {% endhighlight %}
 
 The example shows the other main difference between the two. In Python 2.7 `print` is a statement, whereas in 3 it is a function (with brackets around the thing you want to print).
+
+## `datetime`
+
+We wondered if Python had a nice module for converting UNIX-epoch time/MATLAB time to a more readable date format. It does! And it is called [`datetime`](https://docs.python.org/2/library/datetime.html). Here's a [StackOverflow example](http://stackoverflow.com/questions/3682748/converting-unix-timestamp-string-to-readable-date-in-python) that is highly rated.
 
 ## NetCDF
 
