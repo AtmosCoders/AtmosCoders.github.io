@@ -50,6 +50,7 @@ Note that it varies which python is the default one. You can find out by typing 
 
 Not very many that we would probably worry about. Python 2.7 does integer division by default where it can. e.g.
 
+#### Python 2.7
 {% highlight python %}
 x = 10
 y = 3
@@ -70,6 +71,7 @@ print x/y
 
 This time, it spots that one of your variables is not an integer, so converts both of them to floating point numbers to do the arithmetic. However, *Python 3* will always opt for what some might call the "expected" answer e.g.
 
+#### Python 3.x
 {% highlight python %}
 x = 10
 y = 3
