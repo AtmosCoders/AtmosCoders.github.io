@@ -85,3 +85,9 @@ The example shows the other main difference between the two. In Python 2.7 `prin
 ## NetCDF
 
 We discussed the NetCDF task, [suggested answers and tips are now on the original page](https://nbviewer.jupyter.org/github/AtmosCoders/PyCAS/blob/gh-pages/netCDF_example1.ipynb) with the exercise.
+
+Here is a short introduction and example of using the netCDF4 Python module for the Code Kata part of the meeting (thanks to Callum for providing this):
+
+[PyCAS Task 1: Python netCDF example](https://nbviewer.jupyter.org/github/AtmosCoders/PyCAS/blob/gh-pages/netCDF_example1.ipynb)
+
+The sample data can be [downloaded here](https://github.com/AtmosCoders/PyCAS/blob/gh-pages/sample_data/sst_july_2015.nc?raw=true). But you are encouraged to try out the above task with your own data. The [documentation for the netcdf module](http://unidata.github.io/netcdf4-python/#netCDF4.Variable) is rather cryptic, but there are many examples and hints available via googling and/or [StackOverflow](http://stackoverflow.com/).
