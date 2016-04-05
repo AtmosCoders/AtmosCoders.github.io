@@ -19,10 +19,10 @@ To clarify, the main ways of installing Python packages for sciency things are:
 Anaconda is a popular Python 'bundle' that includes most things you could possibly want to do Python-Science stuff with. You can download the appropriate installer here: [Anaconda Download](https://www.continuum.io/downloads). Linux, Mac, and Windows version available.
 
 ### Python(x,y)
-Personally, this is my favourite bundle for Windows, it comes with a nice MATLAB-like user interface called Spyder, which we mentioned at the last meeting.
+Personally, this is my favourite Python bundle for Windows, it comes with a nice MATLAB-like user interface called Spyder, which we mentioned at the last meeting. [Here is Python(x,y)](http://python-xy.github.io/).
 
 ## From the Package manager
-This is a good way to go if you don't want to install a massive bundle of Python stuff that you won't use, and like to know what's being installed on your computer. This method is just for linux users (I believe..?). 
+This is a good way to go if you don't want to install a massive bundle of Python stuff that you won't use, and like to know what's being installed on your computer. This method is just for linux users. 
 
 NOTE: If you are running Python versions 2.7 and 3.x side by side, you may find that you have to install packages for both installations separately with your package manager: e.g
 
@@ -50,25 +50,24 @@ Note that it varies which python is the default one. You can find out by typing 
 
 Not very many that we would probably worry about. Python 2.7 does integer division by default where it can. e.g.
 
-[source,python]
----
+{ % highlight python %}
+
 x = 10
 y = 3
 print x/y
 
 >> 3
----
+{ % endhighlight %}
 
 Whereas Python 3 will always opt for what some might call the "expected" answer e.g.
 
-[source,python]
----
+{ % highlight python % }
 x = 10
 y = 3
 print( x/y )
 
 >> 3.3333333333335
----
+{ % endhighlight % }
 
 The example shows the other main difference between the two. In Python 2.7 `print` is a statement, whereas in 3 it is a function (with brackets around the thing you want to print).
 
