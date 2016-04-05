@@ -50,27 +50,26 @@ Note that it varies which python is the default one. You can find out by typing 
 
 Not very many that we would probably worry about. Python 2.7 does integer division by default where it can. e.g.
 
-{ % highlight python % }
-
+{% highlight python %}
 x = 10
 y = 3
 print x/y
 
 >> 3
-{ % endhighlight % }
+{% endhighlight %}
 
 Whereas Python 3 will always opt for what some might call the "expected" answer e.g.
 
-{ % highlight python % }
+{% highlight python %}
 x = 10
 y = 3
 print( x/y )
 
 >> 3.3333333333335
-{ % endhighlight % }
+{% endhighlight %}
 
 The example shows the other main difference between the two. In Python 2.7 `print` is a statement, whereas in 3 it is a function (with brackets around the thing you want to print).
 
 ## NetCDF
 
-We discussed the NetCDF task, suggested answers and tips are now on the original page with the exercise.
+We discussed the NetCDF task, [suggested answers and tips are now on the original page](https://nbviewer.jupyter.org/github/AtmosCoders/PyCAS/blob/gh-pages/netCDF_example1.ipynb) with the exercise.
