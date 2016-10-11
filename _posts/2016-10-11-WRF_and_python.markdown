@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Python Utilities and PLotting tools for WRF
+title: WRF Utilities and Plotting tools in Python
 tags: python wrf matplotlib
 ---
 
